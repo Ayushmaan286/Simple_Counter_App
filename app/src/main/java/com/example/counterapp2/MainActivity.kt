@@ -1,5 +1,6 @@
 package com.example.counterapp2
 
+import android.R
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
@@ -25,6 +26,7 @@ class MainActivity : AppCompatActivity() {
 
         increasebutton.setOnClickListener {
             count++
+
             counter.text=count.toString()
 
             if(count>0)
